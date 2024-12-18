@@ -21,7 +21,7 @@ public class Admin extends User {
             System.out.println("Today Date : " + LocalDate.now());
         }else{
 
-            System.out.println("Username : " + getName());
+            System.out.println("Username : " + this.name);
 
         }
 
